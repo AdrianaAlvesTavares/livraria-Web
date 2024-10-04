@@ -1,0 +1,12 @@
+.my-custom-navbar {
+  background-color: #009DAC;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-right: 1rem;
+}
