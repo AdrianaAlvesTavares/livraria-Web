@@ -1,6 +1,20 @@
 <div class="jumbotron">
+<div>
+  <ul>
+    <li *ngFor="let livro of livros">
+      <strong>ID:</strong> {{ livro.id }} <br>
+      <strong>Título:</strong> {{ livro.titulo }} <br>
+      <strong>Autor:</strong> {{ livro.autor }} <br>
+      <strong>ISBN:</strong> {{ livro.isbn }} <br>
+      <strong>Editora:</strong> {{ livro.editora }} <br>
+      <strong>Preço:</strong> {{ livro.preco }} <br>
+      <strong>Gênero:</strong> {{ livro.genero }}
+    </li>
+  </ul>
+</div>
 
 
+<br>
 <div class="container-fluid bg-3 text-center">
   <h3>Some of my Work</h3><br>
   <div class="row">
