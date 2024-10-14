@@ -1,4 +1,4 @@
-import { LivrariaService } from './../services/livraria.service';
+import { LivrariaService } from '../services/livraria.service';
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Livro } from '../../models/Livros';
